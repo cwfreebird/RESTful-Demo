@@ -19,10 +19,10 @@ public class MonitorDao {
 	
 	private MonitorDao() {
 		System.out.println("======================");
-		System.out.println("***********************");
 	}
 
 	public static MonitorDao getInstance() {
+		System.out.println("***********************");
 		if (monitorDao == null) {
 			monitorDao = new MonitorDao();
 		}
