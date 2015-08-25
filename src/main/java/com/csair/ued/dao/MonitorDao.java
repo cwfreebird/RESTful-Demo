@@ -18,7 +18,6 @@ public class MonitorDao {
 	private static Map<String , Monitor> map = new HashMap<String , Monitor>();
 	
 	private MonitorDao() { 
-		System.out.println("==================");
 	}
 
 	public static MonitorDao getInstance() {
