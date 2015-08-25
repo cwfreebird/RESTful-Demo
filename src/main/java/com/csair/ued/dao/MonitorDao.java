@@ -17,7 +17,7 @@ public class MonitorDao {
 	//所有监控点map
 	private static Map<String , Monitor> map = new HashMap<String , Monitor>();
 	
-	private MonitorDao() {
+	private MonitorDao() { 
 	}
 
 	public static MonitorDao getInstance() {
